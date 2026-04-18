@@ -2,7 +2,7 @@
 
 A BeamMP mod that lets players set a custom nickname for their vehicles, visible to other players.
 
-Made by [Neptnium](https://github.com/Neptnium) — Discord: `@neptnium`
+Made by [Neptnium](https://github.com/Neptnium) - Discord: `@neptnium`
 
 ## Usage
 

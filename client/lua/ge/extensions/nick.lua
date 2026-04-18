@@ -17,7 +17,7 @@ local function customOnVehicleReady(gameVehicleID)
     if(MPVehicleGE.isOwn(gameVehicleID)) then return end 
 
     TriggerServerEvent("getNick", MPVehicleGE.getServerVehicleID(gameVehicleID))
-    if originOnVehicleReady then originOnVehicleReady(vehicle) end
+    if originOnVehicleReady then originOnVehicleReady(gameVehicleID) end
     MPVehicleGE.hideNicknames(false)
 end
 
