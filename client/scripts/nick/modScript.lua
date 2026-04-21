@@ -1,2 +1,2 @@
-queueExtensionToLoad("nick")
-loadFromDirectory("/lua/ge/extensions/nick")
+load('nick')
+setExtensionUnloadMode('nick', 'manual')
